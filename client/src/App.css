@@ -1,0 +1,102 @@
+/* Ensure Navbar is Properly Aligned */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+/* Dashboard Menu */
+.dashboard-menu {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dashboard Button */
+.dashboard-button {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.dashboard-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+/* Dropdown Menu */
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 200px;
+  display: flex;
+  flex-direction: column; /* Ensures vertical alignment */
+  padding: 0.5rem 0;
+  z-index: 1000;
+}
+
+/* Dropdown Items */
+.dropdown-item {
+  padding: 0.75rem 1rem;
+  color: #333;
+  text-decoration: none;
+  font-size: 1rem;
+  display: block; /* Ensures vertical list */
+  text-align: left;
+  transition: background 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background: #f1f1f1;
+  border-left: 4px solid #007bff;
+}
+/* App.css */
+.home-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.success-message {
+  background-color: #d4edda; /* Light green background */
+  color: #155724; /* Dark green text */
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem auto;
+  max-width: 400px;
+  border: 1px solid #c3e6cb;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.register-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Add other styles as needed */
